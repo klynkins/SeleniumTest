@@ -1,0 +1,11 @@
+/Users/katelynncampbell/Documents/SeleniumTest/obj/Debug/netcoreapp2.1/SeleniumTest.csprojAssemblyReference.cache
+/Users/katelynncampbell/Documents/SeleniumTest/obj/Debug/netcoreapp2.1/SeleniumTest.csproj.CoreCompileInputs.cache
+/Users/katelynncampbell/Documents/SeleniumTest/obj/Debug/netcoreapp2.1/SeleniumTest.AssemblyInfoInputs.cache
+/Users/katelynncampbell/Documents/SeleniumTest/obj/Debug/netcoreapp2.1/SeleniumTest.AssemblyInfo.cs
+/Users/katelynncampbell/Documents/SeleniumTest/bin/Debug/netcoreapp2.1/SeleniumTest.deps.json
+/Users/katelynncampbell/Documents/SeleniumTest/bin/Debug/netcoreapp2.1/SeleniumTest.runtimeconfig.json
+/Users/katelynncampbell/Documents/SeleniumTest/bin/Debug/netcoreapp2.1/SeleniumTest.runtimeconfig.dev.json
+/Users/katelynncampbell/Documents/SeleniumTest/bin/Debug/netcoreapp2.1/SeleniumTest.dll
+/Users/katelynncampbell/Documents/SeleniumTest/bin/Debug/netcoreapp2.1/SeleniumTest.pdb
+/Users/katelynncampbell/Documents/SeleniumTest/obj/Debug/netcoreapp2.1/SeleniumTest.dll
+/Users/katelynncampbell/Documents/SeleniumTest/obj/Debug/netcoreapp2.1/SeleniumTest.pdb
