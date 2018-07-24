@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "c54d94d9ced4a14a6946aae06e6f0519fe8abb11"
+    "signature": "531f5c8a119d6750d0d6e58caab3ca88e74b3492"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,9 +12,11 @@
           "Microsoft.NET.Test.Sdk": "15.8.0-preview-20180610-02",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Tools": "2.1.0-preview1-final",
+          "Selenium.Chrome.WebDriver": "2.40.0",
           "Selenium.Firefox.WebDriver": "0.21.0",
           "Selenium.Support": "3.13.0",
           "Selenium.WebDriver": "3.13.0",
+          "Selenium.WebDriver.ChromeDriver": "2.40.0",
           "Selenium.WebDriverBackedSelenium": "3.13.0"
         },
         "runtime": {
@@ -405,6 +407,7 @@
           }
         }
       },
+      "Selenium.Chrome.WebDriver/2.40.0": {},
       "Selenium.Firefox.WebDriver/0.21.0": {},
       "Selenium.Support/3.13.0": {
         "dependencies": {
@@ -425,6 +428,7 @@
           }
         }
       },
+      "Selenium.WebDriver.ChromeDriver/2.40.0": {},
       "Selenium.WebDriverBackedSelenium/3.13.0": {
         "dependencies": {
           "Selenium.WebDriver": "3.13.0"
@@ -661,6 +665,13 @@
       "path": "nuget.frameworks/4.7.0-preview1-4986",
       "hashPath": "nuget.frameworks.4.7.0-preview1-4986.nupkg.sha512"
     },
+    "Selenium.Chrome.WebDriver/2.40.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T/RDPvialS0tk6W1ZRoPy/uFNgbEgW+YJplNQByyE9URhhHszJqPu+IIbK0Htgky5R8WjppUwjrxxiFeu73cXw==",
+      "path": "selenium.chrome.webdriver/2.40.0",
+      "hashPath": "selenium.chrome.webdriver.2.40.0.nupkg.sha512"
+    },
     "Selenium.Firefox.WebDriver/0.21.0": {
       "type": "package",
       "serviceable": true,
@@ -681,6 +692,13 @@
       "sha512": "sha512-0GF0OIglNdcyc2PcuVUv+Merb1LBFYDC5e6ytCI8PiZ/TTB5hyTYzMah2Dm4plOLkotC4aL2AqtMZFTPABB5Cw==",
       "path": "selenium.webdriver/3.13.0",
       "hashPath": "selenium.webdriver.3.13.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/2.40.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pWXnd17IY7fhXIYzsMfu1XSHC1ZrqrTsZ6kCPDz21cVlGgDUP+gSMTYk+vKOn3193DIsd9nj+7baXHvsYH0jdw==",
+      "path": "selenium.webdriver.chromedriver/2.40.0",
+      "hashPath": "selenium.webdriver.chromedriver.2.40.0.nupkg.sha512"
     },
     "Selenium.WebDriverBackedSelenium/3.13.0": {
       "type": "package",

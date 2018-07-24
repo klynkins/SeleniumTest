@@ -4102,6 +4102,12 @@
           }
         }
       },
+      "Selenium.Chrome.WebDriver/2.40.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Chrome.WebDriver.targets": {}
+        }
+      },
       "Selenium.Firefox.WebDriver/0.21.0": {
         "type": "package",
         "build": {
@@ -4130,6 +4136,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/2.40.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
       "Selenium.WebDriverBackedSelenium/3.13.0": {
@@ -10137,6 +10149,17 @@
         "version.txt"
       ]
     },
+    "Selenium.Chrome.WebDriver/2.40.0": {
+      "sha512": "T/RDPvialS0tk6W1ZRoPy/uFNgbEgW+YJplNQByyE9URhhHszJqPu+IIbK0Htgky5R8WjppUwjrxxiFeu73cXw==",
+      "type": "package",
+      "path": "selenium.chrome.webdriver/2.40.0",
+      "files": [
+        "build/Selenium.Chrome.WebDriver.targets",
+        "driver/chromedriver.exe",
+        "selenium.chrome.webdriver.2.40.0.nupkg.sha512",
+        "selenium.chrome.webdriver.nuspec"
+      ]
+    },
     "Selenium.Firefox.WebDriver/0.21.0": {
       "sha512": "BktTpRQBLpAaNM51jJDOKn9AhK/fMSQJwR3mm5UOjJN9XPPZQK/AzojQat4/L9+L1c4aiWMchtljzUwL4WGK1Q==",
       "type": "package",
@@ -10180,6 +10203,19 @@
         "lib/netstandard2.0/WebDriver.xml",
         "selenium.webdriver.3.13.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/2.40.0": {
+      "sha512": "pWXnd17IY7fhXIYzsMfu1XSHC1ZrqrTsZ6kCPDz21cVlGgDUP+gSMTYk+vKOn3193DIsd9nj+7baXHvsYH0jdw==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/2.40.0",
+      "files": [
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/win32/chromedriver.exe",
+        "selenium.webdriver.chromedriver.2.40.0.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
       ]
     },
     "Selenium.WebDriverBackedSelenium/3.13.0": {
@@ -15575,9 +15611,11 @@
       "Microsoft.NET.Test.Sdk >= 15.8.0-preview-20180610-02",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Tools >= 2.1.0-preview1-final",
+      "Selenium.Chrome.WebDriver >= 2.40.0",
       "Selenium.Firefox.WebDriver >= 0.21.0",
       "Selenium.Support >= 3.13.0",
       "Selenium.WebDriver >= 3.13.0",
+      "Selenium.WebDriver.ChromeDriver >= 2.40.0",
       "Selenium.WebDriverBackedSelenium >= 3.13.0"
     ]
   },
@@ -15641,6 +15679,10 @@
             "target": "Package",
             "version": "[2.1.0-preview1-final, )"
           },
+          "Selenium.Chrome.WebDriver": {
+            "target": "Package",
+            "version": "[2.40.0, )"
+          },
           "Selenium.Firefox.WebDriver": {
             "target": "Package",
             "version": "[0.21.0, )"
@@ -15652,6 +15694,10 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[3.13.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[2.40.0, )"
           },
           "Selenium.WebDriverBackedSelenium": {
             "target": "Package",
