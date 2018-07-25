@@ -13,7 +13,7 @@ namespace SeleniumTest
             FirefoxDriverService service = FirefoxDriverService.CreateDefaultService("/Users/katelynncampbell/Documents/SeleniumTest/bin/Debug/netcoreapp2.1");
             IWebDriver driver = new FirefoxDriver(service);
 
-            driver.Url = "https://www.reddit.com/";
+            driver.Url = "https://www.yahoo.com/";
 
             driver.find_element_by_name('Trump').click();
         }
