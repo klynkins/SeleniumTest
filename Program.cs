@@ -15,7 +15,28 @@ namespace SeleniumTest
 
             driver.Url = "https://www.yahoo.com/";
 
-            driver.find_element_by_name('Trump').click();
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait(TimeSpan.FromSeconds(10));
+
+            driver.FindElement(By.Id("login")).SendKeys("" + Keys.Enter);
+            driver.FindElement(By.Id("pass")).SendKeys("" + Keys.Enter);
+
+            driver.FindElement(By.XPath("")).Click();
+            driver.FindElement(By.XPath("")).Click();
+            driver.FindElement(By.XPath("")).Click();
+
+            IList<IWebElement> stockNames = driver.FindElements();
+            Console.WriteLine("Total number of portfolio stocks: " + stockNames.Count);
+            Console.WriteLine("You owe the following stocks: ");
+
+            foreach (var stocks in stockNames)
+            {
+                Console.WriteLine(stocks.Text);
+            }
+
+            Console.WriteLine("\n");
+
+            driver.Close();   
         }
     }
 }
