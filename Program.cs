@@ -21,11 +21,11 @@ namespace SeleniumTest
             driver.FindElement(By.Id("login")).SendKeys("" + Keys.Enter);
             driver.FindElement(By.Id("pass")).SendKeys("" + Keys.Enter);
 
-            driver.FindElement(By.XPath("")).Click(); 
+            driver.FindElement(By.XPath("")).Click(); //Xpath link //
             driver.FindElement(By.XPath("")).Click();
             driver.FindElement(By.XPath("")).Click();
 
-            IList<IWebElement> stockNames = driver.FindElements();
+            IList<IWebElement> stockNames = driver.FindElements(); 
             Console.WriteLine("Total number of portfolio stocks: " + stockNames.Count);
             Console.WriteLine("You owe the following stocks: ");
 
