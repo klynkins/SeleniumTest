@@ -21,7 +21,7 @@ namespace SeleniumTest
             driver.FindElement(By.Id("login")).SendKeys("" + Keys.Enter);
             driver.FindElement(By.Id("pass")).SendKeys("" + Keys.Enter);
 
-            driver.FindElement(By.XPath("")).Click(); //Xpath link //
+            driver.FindElement(By.XPath("")).Click(); //test //
             driver.FindElement(By.XPath("")).Click();
             driver.FindElement(By.XPath("")).Click();
 
